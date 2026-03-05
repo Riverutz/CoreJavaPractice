@@ -10,7 +10,6 @@ public class CookingBook {
 
     @Test
     public void cookingBookTest() {
-
         System.out.println("=== Secrets from Home Cooking ===");
         System.out.println();
         System.out.println(
@@ -91,9 +90,7 @@ public class CookingBook {
     }
 
     public void cookingBookUsingMap() {
-
         Map<String, List<String>> cookbookMap = new HashMap<>();
-
         List<String> radautiSoup = new ArrayList<>();
         radautiSoup.add("* 1 whole chicken, boneless and cleaned");
         radautiSoup.add("* 3-5 carrots");

@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 public class JavaExercises1Test {
     @Test
     public void testHomework1() {
-
         JavaExercises1 hw = new JavaExercises1();
 
         System.out.println();

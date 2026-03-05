@@ -3,7 +3,6 @@ package variablesAndMethods;
 import org.testng.annotations.Test;
 
 public class Student {
-
     public String lastName;
     public String firstName;
     public Integer age;
@@ -20,13 +19,11 @@ public class Student {
     }
 
     public void receiveScholarship(){
-
         Integer scholarship  = 2500;
         System.out.println("The student's scholarship is " + scholarship + " RON.");
     }
 
     public void describeStudent() {
-
         lastName = "Vlasceanu";
         firstName = "Daniel";
         age = 35;

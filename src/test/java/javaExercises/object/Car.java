@@ -1,7 +1,6 @@
 package javaExercises.object;
 
 public class Car {
-
     public String brand;
     public String model;
     public String bodyType;

@@ -3,7 +3,6 @@ package javaExercises.conditinalsAndLoops;
 import org.testng.annotations.Test;
 
 public class Fruit {
-
     public String fruitName;
     public Float price;
     public String countryOfOrigin;
@@ -23,7 +22,6 @@ public class Fruit {
     }
 
     public void printFruit(){
-
         fruitName = "Apple";
         price = 14.80f;
         countryOfOrigin = "Romania";
@@ -38,7 +36,6 @@ public class Fruit {
     }
 
     public void printAnyFruit(String fruitName, Float price, String countryOfOrigin, Double weight, Boolean isOrganic){
-
         System.out.println("Fruit name: " + fruitName);
         System.out.println("Price per kg: " + price + " RON");
         System.out.println("Country of origin: " + countryOfOrigin);

@@ -6,7 +6,6 @@ public class AthleteTest {
 
     @Test
     public void metodaTest() {
-
         Athlete mihai = new Athlete("Morar", "Mihai", 45, 'M', "football", true);
         System.out.println();
         System.out.println("=== ATHLETE PRESENTATION ===");

@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 public class Phone {
-
     public String marca;
     public String model;
     public Integer pret;

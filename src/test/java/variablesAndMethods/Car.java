@@ -3,7 +3,6 @@ package variablesAndMethods;
 import org.testng.annotations.Test;
 
 public class Car {
-
     public String brand;
     public String model;
     public Float price;
@@ -26,7 +25,6 @@ public class Car {
     /// DESCRIBE A CAR
 
     public void printCar() {
-
         brand = "Audi";
         model = "A4";
         price = 32000f;
@@ -40,7 +38,6 @@ public class Car {
         System.out.println("Year of manufacture: " + year);
         System.out.println("Is the car convertible? " + isConvertible);
         System.out.printf("Weight: %.0f kg%n", weight);
-
     }
 
     /// DESCRIBE ANY CAR
@@ -60,7 +57,6 @@ public class Car {
         System.out.printf("| Convertible   : %-13s |\n", isConvertible ? "Yes" : "No");
         System.out.printf("| Weight        : %-10.0f kg |\n", weight);
         System.out.println("+-------------------------------+");
-
     }
 }
 

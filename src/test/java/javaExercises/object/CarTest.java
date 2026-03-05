@@ -6,7 +6,6 @@ public class CarTest {
 
     @Test
     public void carTest(){
-
         Car audi = new Car("Audi", "A4", "Sedan", 2026,
                 "2.0L", "Petrol",0.00, "Red",45000, false);
         System.out.println();

@@ -1,7 +1,6 @@
 package javaObjects;
 
 public class Athlete {
-
     public String lastName;
     public String firstName;
     public Integer age;
