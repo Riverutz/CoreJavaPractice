@@ -1,22 +1,21 @@
 package javaExercises.misc;
 
 public class JavaExercises2 {
+    // Create 2 new classes: JavaExercises2 and JavaExercises2Test
 
-    /// Create 2 new classes: JavaExercises2 and JavaExercises2Test
+    // Solve the following tasks:
 
-    /// Solve the following tasks:
-
-    /// 1. Print the word "YES" 5 times on the same line, separated by a space
-    /// 2. Print the first 3 numbers from 1 to 3
-    /// 3. Print the largest number between 15 and 20 (use variables, don't hardcode in method)
-    /// 4. Print the smallest number between 4.5 and 3.25 (use variables, don't hardcode in method)
-    /// 5. Print even and odd numbers up to 10 (use "for")
-    /// 6. Print only even numbers up to 10 (use "for")
-    /// 7. Print numbers divisible by 5 (use variables, don't hardcode)
-    /// 8. Print the first 3 numbers divisible by 5 (use variables, don't hardcode)
-    /// 9. Print the sum of 235 and 10; use LOCAL variables
-    /// 10. Print the sum of numbers up to 10 (int sum=0); use LOCAL variables
-    /// 11. Print the product of numbers up to 10; use LOCAL variables
+    // 1. Print the word "YES" 5 times on the same line, separated by a space
+    // 2. Print the first 3 numbers from 1 to 3
+    // 3. Print the largest number between 15 and 20 (use variables, don't hardcode in method)
+    // 4. Print the smallest number between 4.5 and 3.25 (use variables, don't hardcode in method)
+    // 5. Print even and odd numbers up to 10 (use "for")
+    // 6. Print only even numbers up to 10 (use "for")
+    // 7. Print numbers divisible by 5 (use variables, don't hardcode)
+    // 8. Print the first 3 numbers divisible by 5 (use variables, don't hardcode)
+    // 9. Print the sum of 235 and 10; use LOCAL variables
+    // 10. Print the sum of numbers up to 10 (int sum=0); use LOCAL variables
+    // 11. Print the product of numbers up to 10; use LOCAL variables
 
     public void printWordYes() {
         for (int i = 0; i < 5; i++) {

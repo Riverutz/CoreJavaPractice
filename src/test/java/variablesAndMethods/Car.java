@@ -23,7 +23,6 @@ public class Car {
     }
 
     /// DESCRIBE A CAR
-
     public void printCar() {
         brand = "Audi";
         model = "A4";
@@ -41,7 +40,6 @@ public class Car {
     }
 
     /// DESCRIBE ANY CAR
-
     public void printAnyCar(String brand, String model, Float price, Integer year, Boolean isConvertible, Double weight) {
         printCarTable(brand, model, price, year, isConvertible, weight);
     }

@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 public class JavaExercises1Test {
     @Test
     public void testHomework1() {
+
         JavaExercises1 hw = new JavaExercises1();
 
         System.out.println();
@@ -43,6 +44,7 @@ public class JavaExercises1Test {
         System.out.println("CASE 1: Employee's first name is Andrei");
         System.out.println();
         hw.displaySalary("Andrei", 4500.0);
+
         System.out.println();
         System.out.println("CASE 2: Employee's first name is not Andrei");
         System.out.println();

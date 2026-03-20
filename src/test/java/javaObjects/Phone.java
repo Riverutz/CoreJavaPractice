@@ -4,61 +4,60 @@ import java.util.List;
 import java.util.Map;
 
 public class Phone {
-    public String marca;
+    public String brand;
     public String model;
-    public Integer pret;
-    public Map<String, String> specificatiiTehnice;
-    public List<String> accesoriiIncluse;
-    public Boolean produsResilat;
-    public String observatiiUzura;
+    public Integer price;
+    public Map<String, String> technicalSpecifications;
+    public List<String> includedAccessories;
+    public Boolean refurbishedProduct;
+    public String wearNotes;
 
-    public Phone(String marca, String model, Integer pret, Map<String, String> specificatiiTehnice,
-                 List<String> accesoriiIncluse, Boolean produsResilat) {
-        this.marca = marca;
+    public Phone(String brand, String model, Integer price, Map<String, String> technicalSpecifications, List<String> includedAccessories,
+                 Boolean refurbishedProduct) {
+        this.brand = brand;
         this.model = model;
-        this.pret = pret;
-        this.specificatiiTehnice = specificatiiTehnice;
-        this.accesoriiIncluse = accesoriiIncluse;
-        this.produsResilat = produsResilat;
+        this.price = price;
+        this.technicalSpecifications = technicalSpecifications;
+        this.includedAccessories = includedAccessories;
+        this.refurbishedProduct = refurbishedProduct;
     }
 
-    public Phone(String marca, String model, Integer pret, Map<String, String> specificatiiTehnice,
-                 List<String> accesoriiIncluse, Boolean produsResilat, String observatiiUzura) {
-        this.marca = marca;
+    public Phone(String brand, String model, Integer price, Map<String, String> technicalSpecifications,
+                 List<String> includedAccessories, Boolean refurbishedProduct, String wearNotes) {
+        this.brand = brand;
         this.model = model;
-        this.pret = pret;
-        this.specificatiiTehnice = specificatiiTehnice;
-        this.accesoriiIncluse = accesoriiIncluse;
-        this.produsResilat = produsResilat;
-        this.observatiiUzura = observatiiUzura;
+        this.price = price;
+        this.technicalSpecifications = technicalSpecifications;
+        this.includedAccessories = includedAccessories;
+        this.refurbishedProduct = refurbishedProduct;
+        this.wearNotes = wearNotes;
     }
 
-    public void infoTelefon() {
-        System.out.println("Marca telefonului este " + marca + ".");
-        System.out.println("Modelul telefonului este " + model + ".");
-        System.out.println("Pretul telefonului este " + pret + " RON.");
-        if (produsResilat) {
-            System.out.println("Produsul este resigilat: " + observatiiUzura);
+    public void phoneInfo() {
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Price: " + price + " RON");
+
+        if (refurbishedProduct) {
+            System.out.println("Refurbished product: " + wearNotes);
         } else {
-            System.out.println("Telefonul este nou.");
+            System.out.println("Product condition: New");
         }
 
         System.out.println();
-        System.out.println("SPECIFICATII TEHNICE:");
+        System.out.println("TECHNICAL SPECIFICATIONS");
         System.out.println();
-        for (Map.Entry<String, String> entry : specificatiiTehnice.entrySet()) {
+
+        for (Map.Entry<String, String> entry : technicalSpecifications.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
 
         System.out.println();
-        System.out.println("ACCESORII INCLUSE:");
+        System.out.println("INCLUDED ACCESSORIES");
         System.out.println();
-        for (String accesoriiTelefon : accesoriiIncluse) {
-            System.out.println(accesoriiTelefon);
+
+        for (String accessory : includedAccessories) {
+            System.out.println(accessory);
         }
     }
 }
-
-
-
-

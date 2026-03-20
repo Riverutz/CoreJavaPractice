@@ -8,9 +8,10 @@ import java.util.Map;
 
 public class Collections {
 
-    /// COLLECTIONS = Array, List (ArrayList), Map
+    // COLLECTIONS = Array, List (ArrayList), Map
     @Test
     public void collectionsTest() {
+
         System.out.println();
         System.out.println("=== PRINTING COURSEMATES' NAMES - VERSION 1 ===");
         System.out.println();
@@ -33,10 +34,11 @@ public class Collections {
         countriesCities();
     }
 
-    /// PRINTING COURSEMATES' NAMES
-    /// VERSION 1
+    // PRINTING COURSEMATES' NAMES
+    // VERSION 1
 
     public void printCoursematesArray() {
+
         String[] coursemates = new String[5];
         coursemates[0] = "Daniel";
         coursemates[1] = "Mihai";
@@ -49,7 +51,7 @@ public class Collections {
         }
     }
 
-    /// VERSION 2, using .length
+    // VERSION 2, using .length
 
     public void printCoursematesArrayV2() {
         String[] coursemates = new String[6];
@@ -65,8 +67,7 @@ public class Collections {
         }
     }
 
-    /// PRINTING COURSEMATES' NAMES USING ArrayList
-
+    // PRINTING COURSEMATES' NAMES USING ArrayList
     public void printCoursematesArrayList() {
         List<String> coursemates = new ArrayList<>();
         coursemates.add("Daniel");
@@ -81,8 +82,7 @@ public class Collections {
         }
     }
 
-    /// KEY_VALUE
-
+    // KEY_VALUE
     public void objectsMap() {
         Map<String, String> objects = new HashMap<>();
         objects.put("Fruit", "Apple");
@@ -96,8 +96,7 @@ public class Collections {
         }
     }
 
-    /// PRINTING SOME COUNTRIES WITH THEIR CITIES
-
+    // PRINTING SOME COUNTRIES WITH THEIR CITIES
     public void countriesCities() {
         Map<String, List<String>> countries = new HashMap<>();
 

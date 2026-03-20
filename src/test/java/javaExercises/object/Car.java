@@ -12,8 +12,7 @@ public class Car {
     public Integer price; // in EURO
     public Boolean isAutomatic;
 
-    /// CONSTRUCTOR
-
+    // CONSTRUCTOR
     public Car(String brand, String model, String bodyType, Integer year, String engine, String fuelType,
                Double mileage, String color, Integer price, Boolean isAutomatic) {
         this.brand = brand;
@@ -28,8 +27,7 @@ public class Car {
         this.isAutomatic = isAutomatic;
     }
 
-    /// DISPLAY CARE INFORMATION
-
+    // DISPLAY CARE INFORMATION
     public void presentCar() {
         System.out.println("Car brand: " + brand);
         System.out.println("Car model: " + model);
@@ -42,8 +40,7 @@ public class Car {
         System.out.println("Automatic transmission? " + (isAutomatic ? "Yes" : "No"));
     }
 
-    /// CHECK IF THE CAR IS USED OR NEW
-
+    // CHECK IF THE CAR IS USED OR NEW
     public void checkMileage() {
         if (mileage == 0) {
             System.out.println("The car is new.");
@@ -52,11 +49,9 @@ public class Car {
         }
     }
 
-    /// CALCULATE CAR TAX BASED ON THE YEAR OF MANUFACTURE
-    /// - Cars from 2021 to 2026 → 2% tax
-    /// - Cars from 2010 to 2020 → 10% tax
-    /// - Cars before 2010 → 15% tax
-
+    // - Cars from 2021 to 2026 → 2% tax
+    // - Cars from 2010 to 2020 → 10% tax
+    // - Cars before 2010 → 15% tax
     public void calculateTax() {
         double taxPercentage;
 

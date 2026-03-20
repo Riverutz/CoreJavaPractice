@@ -2,24 +2,24 @@ package javaExercises.misc;
 
 public class JavaExercises1 {
 
-    /// Create two new classes named "JavaExercises1" and "JavaExercisesTest"
-    /// Display the following on the screen:
-    /// FOR EACH LINE, DECLARE NEW VARIABLES
+    // Create two new classes named "JavaExercises1" and "JavaExercisesTest"
+    // Display the following on the screen:
+    // FOR EACH LINE, DECLARE NEW VARIABLES
 
-    /// 1. Hello World
-    /// 2. Your age (number)
-    /// 3. First name and last name on 2 lines
-    /// 4. Add the character "M" at the end of "Hello"
-    /// 5. Add the character "H" at the beginning of "Hello"
-    /// 6. Add the character "Z" after each vowel at the end of words in "Ana has apples, pears, plums"
-    /// 7. Add to all results: " You can go home after I check your work!"
-    /// 8. Display the salary of an employee if their first name is Andrei
-    /// 9. Display the employee's ID and department if the last name is "Popescu"
-    /// 10. Using a method with parameters, display the department number if it is greater than 287
+    // 1. Hello World
+    // 2. Your age (number)
+    // 3. First name and last name on 2 lines
+    // 4. Add the character "M" at the end of "Hello"
+    // 5. Add the character "H" at the beginning of "Hello"
+    // 6. Add the character "Z" after each vowel at the end of words in "Ana has apples, pears, plums"
+    // 7. Add to all results: " You can go home after I check your work!"
+    // 8. Display the salary of an employee if their first name is Andrei
+    // 9. Display the employee's ID and department if the last name is "Popescu"
+    // 10. Using a method with parameters, display the department number if it is greater than 287
 
-    /// ! BONUS !
-    /// Display the result of the equation: [2+(3*4)-3]/3
-    /// Correct result is: {result}
+    // ! BONUS !
+    // Display the result of the equation: [2+(3*4)-3]/3
+    // Correct result is: {result}
 
     private final String finalMessage = "You can go home after I check your work!";
 
