@@ -1,4 +1,4 @@
-package javaExercises.misc;
+package javaexercises.misc;
 
 public class JavaExercises2 {
     // Create 2 new classes: JavaExercises2 and JavaExercises2Test

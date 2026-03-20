@@ -1,4 +1,4 @@
-package javaExercises.conditinalsAndLoops;
+package javaexercises.conditinalsandloops;
 
 import org.testng.annotations.Test;
 

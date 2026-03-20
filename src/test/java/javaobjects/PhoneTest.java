@@ -1,4 +1,4 @@
-package javaObjects;
+package javaobjects;
 
 import org.testng.annotations.Test;
 import java.util.*;

@@ -1,4 +1,4 @@
-package javaExercises.misc;
+package javaexercises.misc;
 
 public class JavaExercises1 {
 

@@ -1,4 +1,4 @@
-package javaObjects;
+package javaobjects;
 
 public class Athlete {
     public String lastName;

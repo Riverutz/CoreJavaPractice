@@ -1,4 +1,4 @@
-package javaExercises.object;
+package javaexercises.object;
 
 public class Car {
     public String brand;

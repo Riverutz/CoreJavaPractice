@@ -1,4 +1,4 @@
-package javaExercises.object;
+package javaexercises.object;
 
 import org.testng.annotations.Test;
 

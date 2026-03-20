@@ -1,4 +1,4 @@
-package variablesAndMethods;
+package variablesandmethods;
 
 import org.testng.annotations.Test;
 

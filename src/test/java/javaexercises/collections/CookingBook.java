@@ -1,4 +1,4 @@
-package javaExercises.collections;
+package javaexercises.collections;
 
 import org.testng.annotations.Test;
 import java.util.ArrayList;
