@@ -14,6 +14,10 @@ public class OOPTest {
         System.out.println("=== PRESENTING DACIA DUSTER 2025 ===");
         System.out.println("--- EXAMPLE 1 with no added extras ---");
         daciaDuster.displayDaciaConfiguration();
+        daciaDuster.startEngine();
+        daciaDuster.openWindows();
+        daciaDuster.daciaPromotion("RABLA");
+        daciaDuster.daciaPromotion(25);
 
         // EXAMPLE 2 - with extras
         Map<String, List<String>> dusterAccessories2 = new LinkedHashMap<>();
@@ -33,6 +37,8 @@ public class OOPTest {
         System.out.println("=== PRESENTING FORD PUMA 2025 ===");
         System.out.println("--- EXAMPLE 1 with no added extras ---");
         fordPuma.displayFordConfiguration();
+        fordPuma.startEngine();
+        fordPuma.openWindows();
 
         // EXAMPLE 2 - with added extras
         Map<String, List<String>> fordOptionalEquipment2 = new LinkedHashMap<>();

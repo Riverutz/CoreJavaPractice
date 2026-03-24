@@ -50,6 +50,14 @@ public class FordConfigurator extends CarConfigurator {
         finalPrice();
     }
 
+    public void startEngine(){
+        System.out.println("Ford cars start with a button.");
+    }
+
+    public void openWindows(){
+        System.out.println("Ford car windows open electrically.");
+    }
+
     public void standardPrice() {
         if (getModel().equals("Puma")) {
             if (trim.equals("Titanium")) {

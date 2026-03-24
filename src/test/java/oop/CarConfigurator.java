@@ -18,6 +18,27 @@ public class CarConfigurator {
         System.out.println("Year: " + year + ".");
     }
 
+    public void startEngine(){
+        System.out.println("The car starts with the key.");
+    }
+
+    public void openWindows(){
+        System.out.println("The car windows open electrically.");
+    }
+
+    public void daciaPromotion(){
+        System.out.println("For the month of July, Dacia has no promotion.");
+    }
+
+    public void daciaPromotion(String ticket){
+        System.out.println("If you have a " + ticket + " ticket, you receive a discount.");
+    }
+
+    public void daciaPromotion(Integer discount){
+        System.out.println("In December, Dacia receives a " + discount + "% discount.");
+    }
+
+
     public String getBrand() {
         return brand;
     }

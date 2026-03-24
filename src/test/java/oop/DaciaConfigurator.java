@@ -52,6 +52,14 @@ public class DaciaConfigurator extends CarConfigurator {
         finalPrice();
     }
 
+    public void startEngine(){
+        System.out.println("Dacia cars start with a button.");
+    }
+
+    public void openWindows(){
+        System.out.println("Dacia car windows open manually.");
+    }
+
     public void standardPrice() {
         if (getModel().equals("Duster")) {
             if (trim.equals("Essential")) {
