@@ -1,11 +1,11 @@
 package abstractionandinterfaces;
 
 public interface CommonInterface {
-    void mananca();
+    void eat();
 
-    void doarme();
+    void sleep();
 
-    void iaPauza();
+    void takeBreak();
 
-    void iaSalar();
+    void receiveSalary();
 }

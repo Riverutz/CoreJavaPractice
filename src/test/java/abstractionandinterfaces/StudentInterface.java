@@ -1,14 +1,13 @@
 package abstractionandinterfaces;
 
 public interface StudentInterface extends CommonInterface{
+    void goToUniversity();
 
-    void mergeLaFacultate();
+    void study();
 
-    void invata();
+    void takeExams();
 
-    void daExamene();
+    void receiveGrades();
 
-    void primesteNote();
-
-    void mergeLaRestante();
+    void attendResits();
 }

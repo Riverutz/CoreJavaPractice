@@ -1,10 +1,9 @@
 package abstractionandinterfaces;
 
 public interface SomerInterface extends CommonInterface{
+    void lookForWork();
 
-    void cautaDelucru();
+    void submitCV();
 
-    void depuneCV();
-
-    void staAcasa();
+    void stayHome();
 }

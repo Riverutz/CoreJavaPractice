@@ -1,8 +1,24 @@
 package abstractionandinterfaces;
 
-public class Student extends Person implements StudentInterface{
-    public Student(String lastName, String firstName, Integer age, Double height, Character sex) {
+public class EmployeeStudent extends Person implements EmployeeInterface, StudentInterface {
+    public EmployeeStudent(String lastName, String firstName, Integer age, Double height, Character sex) {
         super(lastName, firstName, age, height, sex);
+    }
+
+    @Override
+    public void goToWork() {
+    }
+
+    @Override
+    public void performActivity() {
+    }
+
+    @Override
+    public void drinkCoffee() {
+    }
+
+    @Override
+    public void finishActivity() {
     }
 
     @Override
